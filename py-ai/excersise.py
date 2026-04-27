@@ -6,8 +6,14 @@ clients = [
     {"name": "Miguel", "purchases": 1, "active": True},
 ]
 
-for client in clients:
-    if client["active"] and client["purchases"] >= 2:
-        print(f"Client: {client['name']}, Purchases: {client['purchases']}")
-        
+def is_vip(client):
+    return client["active"] and client["purchases"] >= 2
+
+def show_vip_clients(clients):
+    for client in clients:
+        if is_vip(client):
+            print(f"Client VIP: {client['name']}, Purchases: {client['purchases']}")
+
+show_vip_clients(clients)
+
         
