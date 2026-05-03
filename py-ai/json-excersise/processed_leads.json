@@ -1,0 +1,37 @@
+[
+  {
+    "nombre": "Ana Torres",
+    "email": "ana@corp.com",
+    "visitas": 8,
+    "compras": 2,
+    "priority": "Medium"
+  },
+  {
+    "nombre": "Luis Ramos",
+    "email": "luis@gmail.com",
+    "visitas": 1,
+    "compras": 0,
+    "priority": "Low"
+  },
+  {
+    "nombre": "Carla Méndez",
+    "email": "carla@corp.com",
+    "visitas": 15,
+    "compras": 5,
+    "priority": "High"
+  },
+  {
+    "nombre": "Pedro Salas",
+    "email": "pedro@emp.com",
+    "visitas": 4,
+    "compras": 1,
+    "priority": "Medium"
+  },
+  {
+    "nombre": "Diana Flores",
+    "email": "diana@corp.com",
+    "visitas": 10,
+    "compras": 3,
+    "priority": "High"
+  }
+]
