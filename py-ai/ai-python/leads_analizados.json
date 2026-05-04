@@ -1,0 +1,26 @@
+[
+  {
+    "nombre": "Carlos Méndez",
+    "mensaje": "Necesito implementar esto antes de fin de mes, tenemos presupuesto aprobado.",
+    "interes": "alto",
+    "urgencia": "inmediata",
+    "presupuesto_estimado": "alto",
+    "siguiente_accion": "Agendar reunión para discutir implementación"
+  },
+  {
+    "nombre": "Laura Quispe",
+    "mensaje": "Solo estoy viendo opciones por ahora, nada urgente.",
+    "interes": "medio",
+    "urgencia": "explorando",
+    "presupuesto_estimado": "desconocido",
+    "siguiente_accion": "Enviar información general y preguntar sobre necesidades específicas"
+  },
+  {
+    "nombre": "Diego Salas",
+    "mensaje": "Cuánto cuesta? Necesito comparar con otras opciones.",
+    "interes": "medio",
+    "urgencia": "explorando",
+    "presupuesto_estimado": "desconocido",
+    "siguiente_accion": "Proporcionar información de precios y beneficios"
+  }
+]
