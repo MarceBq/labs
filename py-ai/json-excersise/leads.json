@@ -1,0 +1,7 @@
+[
+  {"nombre": "Ana Torres",   "email": "ana@corp.com",    "visitas": 8,  "compras": 2},
+  {"nombre": "Luis Ramos",   "email": "luis@gmail.com",  "visitas": 1,  "compras": 0},
+  {"nombre": "Carla Méndez", "email": "carla@corp.com",  "visitas": 15, "compras": 5},
+  {"nombre": "Pedro Salas",  "email": "pedro@emp.com",   "visitas": 4,  "compras": 1},
+  {"nombre": "Diana Flores", "email": "diana@corp.com",  "visitas": 10, "compras": 3}
+]
