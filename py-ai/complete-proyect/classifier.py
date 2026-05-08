@@ -17,8 +17,9 @@ SYSTEM_PROMPT = """
                   "urgency": "immediate|this_month|exploring", 
                   "estimated_budget": "high|medium|low|unknown", 
                   "profile": "enterprise|startup|individual|unknown", 
-                  "next_action": "specific action in less than 10 words" 
-                }"""
+                  "next_action": "specific personalized business action" 
+                }
+                """
 
 
 def classify_lead(name, message):
