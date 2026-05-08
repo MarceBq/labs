@@ -1,6 +1,28 @@
 import csv
 import json
+import logging
 import os
+
+
+def setup_logging(log_dir="logs"):
+    """
+    Setup logging configuration to log messages to a file with timestamps.
+    """
+
+    os.makedirs(log_dir, exist_ok=True)  # Ensure the log directory exists
+
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s - %(levelname)s - %(message)s",
+        datefmt="%Y-%m-%d %H:%M:%S",
+        handlers=[
+            logging.FileHandler(
+                f"{log_dir}/pipeline.log",
+                encoding="utf-8",
+            ),
+            logging.StreamHandler(),  # Also log to console
+        ],
+    )
 
 
 def load_leads_csv(file_path):
@@ -19,11 +41,11 @@ def save_report_json(data, file_path):
     print(f"Report saved to {file_path}")
 
 
-def print_summary_report(lead_proccesed):
-    total = len(lead_proccesed)
+def print_summary_report(lead_processed):
+    total = len(lead_processed)
 
     count = {"high": 0, "medium": 0, "low": 0, "error": 0}
-    for lead in lead_proccesed:
+    for lead in lead_processed:
         interest = lead.get("analysis", {}).get("interest", "error")
         if interest in count:
             count[interest] += 1
@@ -44,7 +66,7 @@ def print_summary_report(lead_proccesed):
     # Show only the high interest leads with recommended actions
     highs = [
         lead
-        for lead in lead_proccesed
+        for lead in lead_processed
         if lead.get("analysis", {}).get("interest") == "high"
     ]
     if highs:
