@@ -62,7 +62,7 @@ def process_leads(leads, max_workers=5):
     results = []
     total = len(leads)
 
-    with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
         # Create a dictionary to keep track of the futures and their corresponding leads
         futures = {executor.submit(process_single_lead, lead): lead for lead in leads}
 

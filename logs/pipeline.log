@@ -1,17 +1,17 @@
-2026-05-08 02:02:47 - INFO - ========================================
-2026-05-08 02:02:47 - INFO - Starting AI Lead Classification Pipeline
-2026-05-08 02:02:47 - INFO - Loaded 5 leads from /home/marcelo-barrientos/labs/py-ai/complete-proyect/leads.csv
-2026-05-08 02:02:48 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2026-05-08 02:02:48 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2026-05-08 02:02:48 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2026-05-08 02:02:48 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2026-05-08 02:02:48 - INFO - Processed lead: Diego Salas
-2026-05-08 02:02:48 - INFO - Processed lead: Laura Quispe
-2026-05-08 02:02:48 - INFO - Processed lead: Carlos Barrientos
-2026-05-08 02:02:48 - INFO - Processed lead: Ana Torres
-2026-05-08 02:02:48 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2026-05-08 02:02:48 - INFO - Processed lead: Roberto Paz
-2026-05-08 02:02:49 - INFO - Discord notification sent successfully. Total high interest leads: 2
-2026-05-08 02:02:49 - INFO - Pipeline report completed and saved successfully to /home/marcelo-barrientos/labs/py-ai/complete-proyect/report.json
-2026-05-08 02:02:49 - INFO - Scheduler activated. The pipeline will run every hour to process new leads and update the report.
-2026-05-08 02:02:49 - INFO - Press Ctrl+C to exit.
+2026-05-24 22:07:47 - INFO - ========================================
+2026-05-24 22:07:47 - INFO - Starting AI Lead Classification Pipeline
+2026-05-24 22:07:47 - INFO - Loaded 5 leads from /home/marcelo-barrientos/labs/py-ai/complete-proyect/leads.csv
+2026-05-24 22:07:48 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-24 22:07:48 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-24 22:07:48 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-24 22:07:48 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-24 22:07:48 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-24 22:07:48 - INFO - Processed lead: Diego Salas (1/5)
+2026-05-24 22:07:48 - INFO - Processed lead: Carlos Barrientos (2/5)
+2026-05-24 22:07:48 - INFO - Processed lead: Ana Torres (3/5)
+2026-05-24 22:07:48 - INFO - Processed lead: Roberto Paz (4/5)
+2026-05-24 22:07:48 - INFO - Processed lead: Laura Quispe (5/5)
+2026-05-24 22:07:48 - INFO - Discord notification sent successfully. Total high interest leads: 2
+2026-05-24 22:07:48 - INFO - Pipeline report completed and saved successfully to /home/marcelo-barrientos/labs/py-ai/complete-proyect/report.json
+2026-05-24 22:07:48 - INFO - Scheduler activated. The pipeline will run every hour to process new leads and update the report.
+2026-05-24 22:07:48 - INFO - Press Ctrl+C to exit.
